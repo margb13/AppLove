@@ -2,64 +2,115 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>AppLove</title>
+    <link rel="icon" type="image/png" href="https://onepagelove.com/wp-content/themes/onepagelove/img/favicons/favicon-32x32.png" >
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
     <header>
-      <div>
-        <a>Services</a>
-        <a>Work</a>
-        <a>The team</a>
+      <div class="menu container">
+        <a href="#services" class="text-uppercase link">Services</a>
+        <a href="#work" class="text-uppercase link">Work</a>
+        <a href="#" class="text-uppercase link">The team</a>
+        <a href="index.html"><img src="assets/images/logo.png" class="logo" alt="logo"></a>
       </div>
     </header>
-    <section>
-      <div>
-        <h2>you just found an untilmate</h2>
-        <h1>We are applove from heart</h1>
-        <p>handcrafted - modern design - pixel perfect - passioned design</p>
-        <a>View services</a>
+    <section id="home">
+      <div class="container">
+        <h2>YOU JUST FOUND AN UNTILMATE</h2>
+        <h1 class="text-uppercase text-home mb-0">We are applove from heart</h1>
+          <p class="text-uppercase mt-0">HANDCRAFTED - MODERN DESIGN - PIXEL PERFECT - PASSIONED DESIGN</p>
+          <a href="#services" class="button-home">View services</a>
       </div>
     </section>
-    <section>
-      <div>
-        <h2>Services</h2>
+    <section id="services">
+      <div class="container">
+        <h2 class="text-uppercase text-services mt-0">Services</h2>
         <h4>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididuntut,<br>
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
         </h4>
-        <div>
-          <h5>user interface design</h5>
-          <h6>Wireframing</h6>
-          <h6>Prototyping</h6>
-          <h6>Usability testing</h6>
+        <div class="content-services">
+          <img src="assets/images/services-1.png" alt="services">
+          <h5 class="mb-0">USER INTERFACE DESIGN</h5>
+          <h6 class="m-0">Wireframing</h6>
+          <h6 class="m-0">Prototyping</h6>
+          <h6 class="m-0">Usability testing</h6>
         </div>
-        <div>
-          <h5>concept and ideas</h5>
-          <h6>Conceptualization</h6>
-          <h6>Digital Branding</h6>
-          <h6>Product Strategy</h6>
+        <div class="content-services">
+          <img src="assets/images/services-2.png" alt="services">
+          <h5 class="mb-0">CONCEPT AND IDEAS</h5>
+          <h6 class="m-0">Conceptualization</h6>
+          <h6 class="m-0">Digital Branding</h6>
+          <h6 class="m-0">Product Strategy</h6>
         </div>
-        <div>
-          <h5>desing and branding</h5>
-          <h6>Interaction Design</h6>
-          <h6>Graphic Design</h6>
-          <h6>Identity Design</h6>
+        <div class="content-services">
+          <img src="assets/images/services-3.png" alt="services">
+          <h5 class="mb-0">DESING AND BRANDING</h5>
+          <h6 class="m-0">Interaction Design</h6>
+          <h6 class="m-0">Graphic Design</h6>
+          <h6 class="m-0">Identity Design</h6>
         </div>
       </div>
     </section>
-    <section>
-      <div>
-        <h2>work</h2>
+    <section id="work">
+      <div class="container">
+        <h2 class="text-uppercase text-work mt-0">work</h2>
         <h4>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididuntut,<br>
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
         </h4>
+        <figure class="images-work">
+          <img id="images-laptop" src="assets/images/hero.png" alt="laptop" width="1000">
+        </figure>
+        <div id="projects-container">
+            <figure class="figure-project">
+                <img src="assets/images/work-1.jpg" alt="images-1" >
+                <span>NOMBRE DEL PROYECTO</span>
+            </figure>
+            <figure class="figure-project">
+                <img src="assets/images/work-2.jpg" alt="images-2" >
+                <span>NOMBRE DEL PROYECTO</span>
+            </figure>
+            <figure class="figure-project">
+                <img src="assets/images/work-3.jpg" alt="images-3" >
+                <span>NOMBRE DEL PROYECTO</span>
+            </figure>
+            <figure class="figure-project">
+                <img src="assets/images/work-4.jpg" alt="images-4" >
+                <span>NOMBRE DEL PROYECTO</span>
+            </figure>
+            <figure class="figure-project">
+                <img src="assets/images/work-5.jpg" alt="images-5" >
+                <span>NOMBRE DEL PROYECTO</span>
+            </figure>
+            <figure class="figure-project">
+                <img src="assets/images/work-6.jpg" alt="images-6" >
+                <span>NOMBRE DEL PROYECTO</span>
+            </figure>
+            <figure class="figure-project">
+                <img src="assets/images/work-7.jpg" alt="images-7" >
+                <span>NOMBRE DEL PROYECTO</span>
+            </figure>
+            <figure class="figure-project">
+                <img src="assets/images/work-8.jpg" alt="images-8" >
+                <span>NOMBRE DEL PROYECTO</span>
+            </figure>
+            <figure class="figure-project">
+                <img src="assets/images/work-9.jpg" alt="images-9" >
+                <span>NOMBRE DEL PROYECTO</span>
+            </figure>
+            
+        </div>
+        
       </div>
     </section>
     <footer>
-      <p>&#169; Copyright</p>
+      <p>&#169; Copyright - by Margarita Sutta Juarez</p>
     </footer>
+  <script type="text/javascript" src="#"></script>
   </body>
 </html>
+
+
