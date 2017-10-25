@@ -146,7 +146,7 @@ img[alt="services"] {
     width: 200px;
 }
 
-#images-laptop {/*Para rotar la imagen*/
+#images-laptop {/*Para que la imagen se sobreponga encima de la barra de menu que esta con posicion absoluta*/
     -webkit-filter: hue-rotate(35deg);
     -moz-filter: hue-rotate(35deg);
     -o-filter: hue-rotate(35deg);
