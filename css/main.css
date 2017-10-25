@@ -15,6 +15,7 @@ body {
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
+  font-family: 'Raleway', sans-serif;
 }
 
 img {
@@ -70,4 +71,123 @@ a:hover {
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+header {
+    position: fixed;
+    top:0;
+    background: #ffffff;
+    width: 100%;              
+}
+.logo {
+    width: 60px;
+    float: right;
+}
+.menu {
+    padding: 14px 70px;
+    overflow: auto;
+}
+.link {
+    font-weight: 700;
+    padding: 21px;
+    display: inline-block;
+}
+/*____________________________________________________________________________________________________________________________________*/
+
+#home {
+  background-image: url(../assets/images/bg-home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;/*Se muestra en todo el fondo sin repetir*/
+  background-size: cover;
+  height: 580px;
+  text-align: center;
+  margin-top: 80px;
+}
+#home .container {
+  color: #ffffff;
+  padding: 70px;
+}
+.text-home {
+  font-size: 53px;
+}
+/*Para el boton que se encuentra en home*/
+.button-home {
+    background: #2ecc71;
+    color: #ffffff;
+    padding: 11px 20px;
+    border-radius: 1px;/*esquina redondeadas*/
+    font-weight: 500;
+    text-transform: uppercase;/*aplicar mayussula*/
+    margin-top: 63px;
+    display: inline-block;/*pasa en linea sin perder su naturaleza de bloque*/
+    font-size: 14px;
+}
+#services {
+    background-color: #f17c72;
+    color: #ffffff;
+    text-align: center;
+    padding: 91px 7px;
+}
+
+.content-services {
+    display: inline-block;
+    margin-top: 63px;
+    width: 30%;
+    
+}
+#work {
+    text-align: center;
+    padding: 91px 7px;
+}
+.text-services, .text-work {
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+img[alt="services"] {
+    width: 200px;
+}
+
+#images-laptop {
+    -webkit-filter: hue-rotate(35deg);
+    -moz-filter: hue-rotate(35deg);
+    -o-filter: hue-rotate(35deg);
+    -ms-filter: hue-rotate(35deg);
+    filter: hue-rotate(35deg);
+}
+.images-work {
+    margin-top: 63px;
+}
+.images-project {
+    display: inline-block;
+    margin-bottom: 42px;
+}
+.name-project {
+  margin-top: 21px;
+  font-weight: 600;
+}
+img[alt="work"] {
+    width: 300px;
+    text-align: center;
+    padding: 91px 7px;
+    padding-bottom: 5px;
+    padding-top: 50px;
+}
+.box {
+    display: inline;
+}
+span {
+    text-align: center;
+    position: absolute;
+    font-weight: bold;
+    padding-left: 65px;
+    
+}
+
+footer {
+  text-align: center;
+  height: 70px;
+  background: #373b47;
+  color: #ffffff;
+  padding-top: 7px;
+
+}
 
