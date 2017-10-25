@@ -97,7 +97,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;/*Se muestra en todo el fondo sin repetir*/
   background-size: cover;
-  height: 580px;
+  height: 560px;
   text-align: center;
   margin-top: 80px;
 }
@@ -141,12 +141,12 @@ header {
     font-size: 35px;
     letter-spacing: 2px;
 }
-
+/*Selector de atributo*/
 img[alt="services"] {
     width: 200px;
 }
 
-#images-laptop {
+#images-laptop {/*Para rotar la imagen*/
     -webkit-filter: hue-rotate(35deg);
     -moz-filter: hue-rotate(35deg);
     -o-filter: hue-rotate(35deg);
@@ -164,6 +164,7 @@ img[alt="services"] {
   margin-top: 21px;
   font-weight: 600;
 }
+/*Selector de atributo*/
 img[alt="work"] {
     width: 300px;
     text-align: center;
@@ -181,7 +182,7 @@ span {
     padding-left: 65px;
     
 }
-
+/*Para el footer*/
 footer {
   text-align: center;
   height: 70px;
